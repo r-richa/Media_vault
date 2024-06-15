@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ryanheise.audio_session.test" >
+4
+5    <uses-sdk
+5-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:5:15-41
+7        android:targetSdkVersion="16" />
+7-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:11:5-15:82
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:13:22-53
+13        android:label="Tests for com.ryanheise.audio_session.test"
+13-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:15:22-80
+14        android:targetPackage="com.ryanheise.audio_session.test" />
+14-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:12:22-78
+15
+16    <queries>
+16-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:24:5-34:15
+17        <intent>
+17-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
+18            <action android:name="android.media.browse.MediaBrowserService" />
+18-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
+18-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
+19        </intent>
+20        <intent>
+20-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
+21            <action android:name="androidx.media2.session.MediaSessionService" />
+21-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
+21-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
+22        </intent>
+23        <intent>
+23-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
+24            <action android:name="androidx.media2.session.MediaLibraryService" />
+24-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
+24-->[androidx.media2:media2-session:1.2.1] C:\Users\Richa\.gradle\caches\transforms-3\ea9bc87380fca10c4144a0081174c974\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+25        </intent>
+26    </queries>
+27
+28    <application
+28-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:7:5-9:19
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.6.0] C:\Users\Richa\.gradle\caches\transforms-3\7eaf978847a236524040d366c2f5acf9\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true" >
+31        <uses-library android:name="android.test.runner" />
+31-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:8:9-60
+31-->C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest7146375312418751366.xml:8:23-57
+32        <uses-library
+32-->[androidx.window:window:1.0.0-beta04] C:\Users\Richa\.gradle\caches\transforms-3\8eeabe4096b0a4fb517cb33c720bec8a\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+33            android:name="androidx.window.extensions"
+33-->[androidx.window:window:1.0.0-beta04] C:\Users\Richa\.gradle\caches\transforms-3\8eeabe4096b0a4fb517cb33c720bec8a\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+34            android:required="false" />
+34-->[androidx.window:window:1.0.0-beta04] C:\Users\Richa\.gradle\caches\transforms-3\8eeabe4096b0a4fb517cb33c720bec8a\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+35        <uses-library
+35-->[androidx.window:window:1.0.0-beta04] C:\Users\Richa\.gradle\caches\transforms-3\8eeabe4096b0a4fb517cb33c720bec8a\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+36            android:name="androidx.window.sidecar"
+36-->[androidx.window:window:1.0.0-beta04] C:\Users\Richa\.gradle\caches\transforms-3\8eeabe4096b0a4fb517cb33c720bec8a\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+37            android:required="false" />
+37-->[androidx.window:window:1.0.0-beta04] C:\Users\Richa\.gradle\caches\transforms-3\8eeabe4096b0a4fb517cb33c720bec8a\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+38    </application>
+39
+40</manifest>

@@ -1,0 +1,68 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ryanheise.audio_session-merged_res-11:/values-ur/values-ur.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Richa\\.gradle\\caches\\transforms-3\\555f2c298efeb1e8fbe9a3a0f92f7888\\transformed\\core-1.6.0\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "609",
+                        "endColumns": "100",
+                        "endOffsets": "705"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Richa\\.gradle\\caches\\transforms-3\\1468515894eb230d3861ccd92db886ec\\transformed\\jetified-media2-session-1.2.1\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,162,264,360,482",
+                        "endColumns": "106,101,95,121,126",
+                        "endOffsets": "157,259,355,477,604"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.ryanheise.audio_session-mergeReleaseResources-9:/values-ur/values-ur.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Richa\\.gradle\\caches\\transforms-3\\555f2c298efeb1e8fbe9a3a0f92f7888\\transformed\\core-1.6.0\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "609",
+                        "endColumns": "100",
+                        "endOffsets": "705"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Richa\\.gradle\\caches\\transforms-3\\1468515894eb230d3861ccd92db886ec\\transformed\\jetified-media2-session-1.2.1\\res\\values-ur\\values-ur.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,162,264,360,482",
+                        "endColumns": "106,101,95,121,126",
+                        "endOffsets": "157,259,355,477,604"
+                    }
+                }
+            ]
+        }
+    ]
+}

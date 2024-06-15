@@ -1,0 +1,25 @@
+<lint-module
+    format="1"
+    dir="C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\flutter_inappwebview-5.8.0\android"
+    name=":flutter_inappwebview"
+    type="LIBRARY"
+    maven="com.pichillilorenzo.flutter_inappwebview:flutter_inappwebview:"
+    gradle="7.3.0"
+    buildFolder="C:\Users\Richa\AndroidStudioProjects\media_vault\build\flutter_inappwebview"
+    bootClassPath="C:\Users\Richa\AppData\Local\Android\sdk\platforms\android-33\android.jar;C:\Users\Richa\AppData\Local\Android\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="debug"/>
+</lint-module>

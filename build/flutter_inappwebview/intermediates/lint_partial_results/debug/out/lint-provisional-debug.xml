@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.3.0" type="conditional_incidents">
+
+    <incident
+        id="UnusedAttribute"
+        severity="warning"
+        message="">
+        <fix-data requiresApi="21"/>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*resDir*0}/layout/floating_action_mode.xml"
+            line="7"
+            column="5"
+            startOffset="281"
+            endLine="7"
+            endColumn="28"
+            endOffset="304"/>
+        <map>
+            <entry
+                name="minSdk"
+                int="17"/>
+            <entry
+                name="requiresApi"
+                int="21"/>
+            <entry
+                name="message"
+                string="Attribute `elevation` is only used in API level 21 and higher (current min is %1$d)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/chrome_custom_tabs/CustomTabsHelper.java"
+            line="68"
+            column="53"
+            startOffset="2753"
+            endLine="68"
+            endColumn="74"
+            endOffset="2774"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/chrome_custom_tabs/CustomTabsHelper.java"
+            line="109"
+            column="45"
+            startOffset="4909"
+            endLine="109"
+            endColumn="66"
+            endOffset="4930"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 26">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/credential_database/CredentialDatabaseHandler.java"
+                startOffset="661"
+                endOffset="702"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/credential_database/CredentialDatabaseHandler.java"
+            line="22"
+            column="1"
+            startOffset="661"
+            endLine="22"
+            endColumn="42"
+            endOffset="702"/>
+        <map>
+            <condition minGE="26"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_browser/InAppBrowserManager.java"
+            line="142"
+            column="39"
+            startOffset="4938"
+            endLine="142"
+            endColumn="60"
+            endOffset="4959"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/DisplayListenerProxy.java"
+                startOffset="585"
+                endOffset="623"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/DisplayListenerProxy.java"
+            line="16"
+            column="1"
+            startOffset="585"
+            endLine="16"
+            endColumn="39"
+            endOffset="623"/>
+        <map>
+            <condition minGE="19"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+                startOffset="58992"
+                endOffset="59040"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+            line="1232"
+            column="3"
+            startOffset="58992"
+            endLine="1232"
+            endColumn="51"
+            endOffset="59040"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 23">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+                startOffset="63539"
+                endOffset="63580"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+            line="1348"
+            column="3"
+            startOffset="63539"
+            endLine="1348"
+            endColumn="44"
+            endOffset="63580"/>
+        <map>
+            <condition minGE="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+                startOffset="70337"
+                endOffset="70383"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+            line="1537"
+            column="3"
+            startOffset="70337"
+            endLine="1537"
+            endColumn="49"
+            endOffset="70383"/>
+        <map>
+            <condition minGE="19"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+                startOffset="71983"
+                endOffset="72029"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+            line="1572"
+            column="3"
+            startOffset="71983"
+            endLine="1572"
+            endColumn="49"
+            endOffset="72029"/>
+        <map>
+            <condition minGE="19"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+                startOffset="73126"
+                endOffset="73174"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+            line="1607"
+            column="3"
+            startOffset="73126"
+            endLine="1607"
+            endColumn="51"
+            endOffset="73174"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+                startOffset="74884"
+                endOffset="74924"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebView.java"
+            line="1641"
+            column="3"
+            startOffset="74884"
+            endLine="1641"
+            endColumn="43"
+            endOffset="74924"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+                startOffset="3063"
+                endOffset="3109"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+            line="82"
+            column="3"
+            startOffset="3063"
+            endLine="82"
+            endColumn="49"
+            endOffset="3109"/>
+        <map>
+            <condition minGE="19"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+                startOffset="28928"
+                endOffset="28968"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+            line="793"
+            column="3"
+            startOffset="28928"
+            endLine="793"
+            endColumn="43"
+            endOffset="28968"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+            line="935"
+            column="42"
+            startOffset="33517"
+            endLine="935"
+            endColumn="57"
+            endOffset="33532"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+                startOffset="33736"
+                endOffset="33784"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+            line="942"
+            column="3"
+            startOffset="33736"
+            endLine="942"
+            endColumn="51"
+            endOffset="33784"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="QueryPermissionsNeeded"
+        severity="warning"
+        message="Consider adding a `&lt;queries>` declaration to your manifest when calling this \&#xA;method; see https://g.co/dev/packagevisibility for details">
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+            line="981"
+            column="42"
+            startOffset="35100"
+            endLine="981"
+            endColumn="57"
+            endOffset="35115"/>
+        <map>
+            <entry
+                name="queryAll"
+                boolean="false"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+                startOffset="37093"
+                endOffset="37139"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewChromeClient.java"
+            line="1039"
+            column="3"
+            startOffset="37093"
+            endLine="1039"
+            endColumn="49"
+            endOffset="37139"/>
+        <map>
+            <condition minGE="19"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+                startOffset="2616"
+                endOffset="2656"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+            line="67"
+            column="3"
+            startOffset="2616"
+            endLine="67"
+            endColumn="43"
+            endOffset="2656"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 23">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+                startOffset="9725"
+                endOffset="9766"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+            line="261"
+            column="3"
+            startOffset="9725"
+            endLine="261"
+            endColumn="44"
+            endOffset="9766"/>
+        <map>
+            <condition minGE="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 23">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+                startOffset="11550"
+                endOffset="11591"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+            line="316"
+            column="3"
+            startOffset="11550"
+            endLine="316"
+            endColumn="44"
+            endOffset="11591"/>
+        <map>
+            <condition minGE="23"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+                startOffset="17203"
+                endOffset="17251"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+            line="466"
+            column="3"
+            startOffset="17203"
+            endLine="466"
+            endColumn="51"
+            endOffset="17251"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 27">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+                startOffset="20233"
+                endOffset="20278"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+            line="543"
+            column="3"
+            startOffset="20233"
+            endLine="543"
+            endColumn="48"
+            endOffset="20278"/>
+        <map>
+            <condition minGE="27"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 21">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+                startOffset="24227"
+                endOffset="24275"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+            line="659"
+            column="3"
+            startOffset="24227"
+            endLine="659"
+            endColumn="51"
+            endOffset="24275"/>
+        <map>
+            <condition minGE="21"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 26">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+                startOffset="28667"
+                endOffset="28708"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/in_app_webview/InAppWebViewClient.java"
+            line="781"
+            column="3"
+            startOffset="28667"
+            endLine="781"
+            endColumn="44"
+            endOffset="28708"/>
+        <map>
+            <condition minGE="26"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 24">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/ServiceWorkerManager.java"
+                startOffset="726"
+                endOffset="767"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/ServiceWorkerManager.java"
+            line="24"
+            column="1"
+            startOffset="726"
+            endLine="24"
+            endColumn="42"
+            endOffset="767"/>
+        <map>
+            <condition minGE="24"/>
+        </map>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 19">
+        <fix-replace
+            description="Delete @RequiresApi"
+            replacement="">
+            <range
+                file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/Util.java"
+                startOffset="7685"
+                endOffset="7731"/>
+        </fix-replace>
+        <location
+            file="${:flutter_inappwebview*debug*sourceProvider*0*javaDir*0}/com/pichillilorenzo/flutter_inappwebview/Util.java"
+            line="238"
+            column="3"
+            startOffset="7685"
+            endLine="238"
+            endColumn="49"
+            endOffset="7731"/>
+        <map>
+            <condition minGE="19"/>
+        </map>
+    </incident>
+
+</incidents>

@@ -1,0 +1,15 @@
+com.ryanheise.audio_session-jetified-media2-session-1.2.1-0 C:\Users\Richa\.gradle\caches\transforms-3\1468515894eb230d3861ccd92db886ec\transformed\jetified-media2-session-1.2.1\res
+com.ryanheise.audio_session-core-1.6.0-1 C:\Users\Richa\.gradle\caches\transforms-3\555f2c298efeb1e8fbe9a3a0f92f7888\transformed\core-1.6.0\res
+com.ryanheise.audio_session-media-1.4.1-2 C:\Users\Richa\.gradle\caches\transforms-3\684bf43f13f551c2cc6b68a54b16af98\transformed\media-1.4.1\res
+com.ryanheise.audio_session-jetified-annotation-experimental-1.1.0-3 C:\Users\Richa\.gradle\caches\transforms-3\74bc4b2a7eebf012a961dd7e014d5c49\transformed\jetified-annotation-experimental-1.1.0\res
+com.ryanheise.audio_session-jetified-window-1.0.0-beta04-4 C:\Users\Richa\.gradle\caches\transforms-3\9fdb26ca7ced99a9dd5f18a9a42130dc\transformed\jetified-window-1.0.0-beta04\res
+com.ryanheise.audio_session-jetified-window-java-1.0.0-beta04-5 C:\Users\Richa\.gradle\caches\transforms-3\d44cc5989994438c0c8a43c8c18d20ca\transformed\jetified-window-java-1.0.0-beta04\res
+com.ryanheise.audio_session-jetified-media2-common-1.2.1-6 C:\Users\Richa\.gradle\caches\transforms-3\ff3a049eb2cffd3173bd05cb30183cf8\transformed\jetified-media2-common-1.2.1\res
+com.ryanheise.audio_session-pngs-7 C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\generated\res\pngs\release
+com.ryanheise.audio_session-resValues-8 C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\generated\res\resValues\release
+com.ryanheise.audio_session-rs-9 C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\generated\res\rs\release
+com.ryanheise.audio_session-mergeReleaseResources-10 C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.ryanheise.audio_session-mergeReleaseResources-11 C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.ryanheise.audio_session-merged_res-12 C:\Users\Richa\AndroidStudioProjects\media_vault\build\audio_session\intermediates\merged_res\release
+com.ryanheise.audio_session-main-13 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\res
+com.ryanheise.audio_session-release-14 C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\release\res

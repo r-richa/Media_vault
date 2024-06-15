@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\just_audio-0.9.37\android"
+    name=":just_audio"
+    type="LIBRARY"
+    maven="com.ryanheise.just_audio:just_audio:"
+    gradle="7.3.0"
+    buildFolder="C:\Users\Richa\AndroidStudioProjects\media_vault\build\just_audio"
+    bootClassPath="C:\Users\Richa\AppData\Local\Android\sdk\platforms\android-33\android.jar;C:\Users\Richa\AppData\Local\Android\sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="debug"/>
+</lint-module>

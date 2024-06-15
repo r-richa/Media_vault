@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.3.0" type="incidents">
+
+    <incident
+        id="SwitchIntDef"
+        severity="warning"
+        message="Switch statement on an `int` with known associated constant missing case `Player.STATE_ENDED`, `Player.STATE_IDLE`">
+        <fix-data cases="com.google.android.exoplayer2.Player.STATE_ENDED, com.google.android.exoplayer2.Player.STATE_IDLE"/>
+        <location
+            file="${:just_audio*debug*sourceProvider*0*javaDir*0}/com/ryanheise/just_audio/AudioPlayer.java"
+            line="117"
+            column="13"
+            startOffset="5115"
+            endLine="117"
+            endColumn="19"
+            endOffset="5121"/>
+    </incident>
+
+    <incident
+        id="SwitchIntDef"
+        severity="warning"
+        message="Switch statement on an `int` with known associated constant missing case `Player.DISCONTINUITY_REASON_INTERNAL`, `Player.DISCONTINUITY_REASON_REMOVE`, `Player.DISCONTINUITY_REASON_SEEK_ADJUSTMENT`, `Player.DISCONTINUITY_REASON_SKIP`">
+        <fix-data cases="com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_INTERNAL, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_REMOVE, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SEEK_ADJUSTMENT, com.google.android.exoplayer2.Player.DISCONTINUITY_REASON_SKIP"/>
+        <location
+            file="${:just_audio*debug*sourceProvider*0*javaDir*0}/com/ryanheise/just_audio/AudioPlayer.java"
+            line="261"
+            column="9"
+            startOffset="11834"
+            endLine="261"
+            endColumn="15"
+            endOffset="11840"/>
+    </incident>
+
+    <incident
+        id="SwitchIntDef"
+        severity="warning"
+        message="Switch statement on an `int` with known associated constant missing case `Player.STATE_IDLE`">
+        <fix-data cases="com.google.android.exoplayer2.Player.STATE_IDLE"/>
+        <location
+            file="${:just_audio*debug*sourceProvider*0*javaDir*0}/com/ryanheise/just_audio/AudioPlayer.java"
+            line="314"
+            column="9"
+            startOffset="13718"
+            endLine="314"
+            endColumn="15"
+            endOffset="13724"/>
+    </incident>
+
+    <incident
+        id="SwitchIntDef"
+        severity="warning"
+        message="Switch statement on an `int` with known associated constant missing case `ExoPlaybackException.TYPE_REMOTE`">
+        <fix-data cases="com.google.android.exoplayer2.ExoPlaybackException.TYPE_REMOTE"/>
+        <location
+            file="${:just_audio*debug*sourceProvider*0*javaDir*0}/com/ryanheise/just_audio/AudioPlayer.java"
+            line="369"
+            column="13"
+            startOffset="16003"
+            endLine="369"
+            endColumn="19"
+            endOffset="16009"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toLowerCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="${:just_audio*debug*sourceProvider*0*javaDir*0}/com/ryanheise/just_audio/AudioPlayer.java"
+            line="936"
+            column="50"
+            startOffset="41276"
+            endLine="936"
+            endColumn="61"
+            endOffset="41287"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.tools.build:gradle than 7.3.0 is available: 8.5.0. (There is also a newer version of 7.3.𝑥 available, if upgrading to 8.5.0 is difficult: 7.3.1)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 8.5.0"
+                family="Update versions"
+                oldString="7.3.0"
+                replacement="8.5.0"/>
+            <fix-replace
+                description="Change to 7.3.1"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="7.3.0"
+                replacement="7.3.1"/>
+        </fix-alternatives>
+        <location
+            file="${:just_audio*projectDir}/build.gradle"
+            line="12"
+            column="9"
+            startOffset="218"
+            endLine="12"
+            endColumn="57"
+            endOffset="266"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.exoplayer:exoplayer-core than 2.18.7 is available: 2.19.1">
+        <location
+            file="${:just_audio*projectDir}/build.gradle"
+            line="53"
+            column="20"
+            startOffset="1033"
+            endLine="53"
+            endColumn="84"
+            endOffset="1097"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.exoplayer:exoplayer-dash than 2.18.7 is available: 2.19.1">
+        <location
+            file="${:just_audio*projectDir}/build.gradle"
+            line="54"
+            column="20"
+            startOffset="1117"
+            endLine="54"
+            endColumn="84"
+            endOffset="1181"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.exoplayer:exoplayer-hls than 2.18.7 is available: 2.19.1">
+        <location
+            file="${:just_audio*projectDir}/build.gradle"
+            line="55"
+            column="20"
+            startOffset="1201"
+            endLine="55"
+            endColumn="83"
+            endOffset="1264"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.exoplayer:exoplayer-smoothstreaming than 2.18.7 is available: 2.19.1">
+        <location
+            file="${:just_audio*projectDir}/build.gradle"
+            line="56"
+            column="20"
+            startOffset="1284"
+            endLine="56"
+            endColumn="95"
+            endOffset="1359"/>
+    </incident>
+
+</incidents>

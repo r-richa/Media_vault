@@ -1,0 +1,231 @@
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:272: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getId [NewApi]
+                "id", device.getId(),
+                             ~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:273: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getProductName [NewApi]
+                "productName", device.getProductName(),
+                                      ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:274: Error: Call requires API level 28 (current min is 16): android.media.AudioDeviceInfo#getAddress [NewApi]
+                "address", device.getAddress(),
+                                  ~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:275: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#isSource [NewApi]
+                "isSource", device.isSource(),
+                                   ~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:276: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#isSink [NewApi]
+                "isSink", device.isSink(),
+                                 ~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:277: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getSampleRates [NewApi]
+                "sampleRates", device.getSampleRates(),
+                                      ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:278: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getChannelMasks [NewApi]
+                "channelMasks", device.getChannelMasks(),
+                                       ~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:279: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getChannelIndexMasks [NewApi]
+                "channelIndexMasks", device.getChannelIndexMasks(),
+                                            ~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:280: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getChannelCounts [NewApi]
+                "channelCounts", device.getChannelCounts(),
+                                        ~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:281: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getEncodings [NewApi]
+                "encodings", device.getEncodings(),
+                                    ~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:282: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getType [NewApi]
+                "type", device.getType()
+                               ~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:295: Error: Class requires API level 23 (current min is 16): android.media.AudioDeviceCallback [NewApi]
+            audioDeviceCallback = new AudioDeviceCallback() {
+                                      ~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:305: Error: Call requires API level 23 (current min is 16): android.media.AudioManager#registerAudioDeviceCallback [NewApi]
+            audioManager.registerAudioDeviceCallback((AudioDeviceCallback)audioDeviceCallback, handler);
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:305: Error: Class requires API level 23 (current min is 16): android.media.AudioDeviceCallback [NewApi]
+            audioManager.registerAudioDeviceCallback((AudioDeviceCallback)audioDeviceCallback, handler);
+                                                      ~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:372: Error: Call requires API level 19 (current min is 16): android.media.AudioManager#dispatchMediaKeyEvent [NewApi]
+            audioManager.dispatchMediaKeyEvent(keyEvent);
+                         ~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:377: Error: Call requires API level 21 (current min is 16): android.media.AudioManager#isVolumeFixed [NewApi]
+            return audioManager.isVolumeFixed();
+                                ~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:399: Error: Call requires API level 28 (current min is 16): android.media.AudioManager#getStreamMinVolume [NewApi]
+            return audioManager.getStreamMinVolume(streamType);
+                                ~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:406: Error: Call requires API level 28 (current min is 16): android.media.AudioManager#getStreamVolumeDb [NewApi]
+            return audioManager.getStreamVolumeDb(streamType, index, deviceType);
+                                ~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:418: Error: Call requires API level 23 (current min is 16): android.media.AudioManager#isStreamMute [NewApi]
+            return audioManager.isStreamMute(streamType);
+                                ~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:422: Error: Call requires API level 31 (current min is 16): android.media.AudioManager#getAvailableCommunicationDevices [NewApi]
+            devices = audioManager.getAvailableCommunicationDevices();
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:432: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getId [NewApi]
+                if (device.getId() == deviceId) {
+                           ~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:433: Error: Call requires API level 31 (current min is 16): android.media.AudioManager#setCommunicationDevice [NewApi]
+                    return audioManager.setCommunicationDevice(device);
+                                        ~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:440: Error: Call requires API level 31 (current min is 16): android.media.AudioManager#getCommunicationDevice [NewApi]
+            return encodeAudioDevice(audioManager.getCommunicationDevice());
+                                                  ~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:444: Error: Call requires API level 31 (current min is 16): android.media.AudioManager#clearCommunicationDevice [NewApi]
+            audioManager.clearCommunicationDevice();
+                         ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:458: Error: Call requires API level 29 (current min is 16): android.media.AudioManager#setAllowedCapturePolicy [NewApi]
+            audioManager.setAllowedCapturePolicy(capturePolicy);
+                         ~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:463: Error: Call requires API level 29 (current min is 16): android.media.AudioManager#getAllowedCapturePolicy [NewApi]
+            return audioManager.getAllowedCapturePolicy();
+                                ~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:505: Error: Call requires API level 21 (current min is 16): android.media.AudioManager#generateAudioSessionId [NewApi]
+            return audioManager.generateAudioSessionId();
+                                ~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:532: Error: Call requires API level 17 (current min is 16): android.media.AudioManager#getProperty [NewApi]
+            return audioManager.getProperty(arg);
+                                ~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:537: Error: Call requires API level 23 (current min is 16): android.media.AudioManager#getDevices [NewApi]
+            AudioDeviceInfo[] devices = audioManager.getDevices(flags);
+                                                     ~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:545: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getId [NewApi]
+                    "id", device.getId(),
+                                 ~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:546: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getProductName [NewApi]
+                    "productName", device.getProductName(),
+                                          ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:548: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#isSource [NewApi]
+                    "isSource", device.isSource(),
+                                       ~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:549: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#isSink [NewApi]
+                    "isSink", device.isSink(),
+                                     ~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:550: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getSampleRates [NewApi]
+                    "sampleRates", intArrayToList(device.getSampleRates()),
+                                                         ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:551: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getChannelMasks [NewApi]
+                    "channelMasks", intArrayToList(device.getChannelMasks()),
+                                                          ~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:552: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getChannelIndexMasks [NewApi]
+                    "channelIndexMasks", intArrayToList(device.getChannelIndexMasks()),
+                                                               ~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:553: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getChannelCounts [NewApi]
+                    "channelCounts", intArrayToList(device.getChannelCounts()),
+                                                           ~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:554: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getEncodings [NewApi]
+                    "encodings", intArrayToList(device.getEncodings()),
+                                                       ~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:555: Error: Call requires API level 23 (current min is 16): android.media.AudioDeviceInfo#getType [NewApi]
+                    "type", device.getType()
+                                   ~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:563: Error: Call requires API level 28 (current min is 16): android.media.AudioManager#getMicrophones [NewApi]
+            List<MicrophoneInfo> microphones = audioManager.getMicrophones();
+                                                            ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:566: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getFrequencyResponse [NewApi]
+                for (Pair<Float, Float> pair : microphone.getFrequencyResponse()) {
+                                                          ~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:570: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getChannelMapping [NewApi]
+                for (Pair<Integer, Integer> pair : microphone.getChannelMapping()) {
+                                                              ~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:574: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getDescription [NewApi]
+                    "description", microphone.getDescription(),
+                                              ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:575: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getId [NewApi]
+                    "id", microphone.getId(),
+                                     ~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:576: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getType [NewApi]
+                    "type", microphone.getType(),
+                                       ~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:577: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getAddress [NewApi]
+                    "address", microphone.getAddress(),
+                                          ~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:578: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getLocation [NewApi]
+                    "location", microphone.getLocation(),
+                                           ~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:579: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getGroup [NewApi]
+                    "group", microphone.getGroup(),
+                                        ~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:580: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getIndexInTheGroup [NewApi]
+                    "indexInTheGroup", microphone.getIndexInTheGroup(),
+                                                  ~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:581: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getPosition [NewApi]
+                    "position", coordinate3fToList(microphone.getPosition()),
+                                                              ~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:582: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getOrientation [NewApi]
+                    "orientation", coordinate3fToList(microphone.getOrientation()),
+                                                                 ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:585: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getSensitivity [NewApi]
+                    "sensitivity", microphone.getSensitivity(),
+                                              ~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:586: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getMaxSpl [NewApi]
+                    "maxSpl", microphone.getMaxSpl(),
+                                         ~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:587: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getMinSpl [NewApi]
+                    "minSpl", microphone.getMinSpl(),
+                                         ~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:588: Error: Call requires API level 28 (current min is 16): android.media.MicrophoneInfo#getDirectionality [NewApi]
+                    "directionality", microphone.getDirectionality()
+                                                 ~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:596: Error: Call requires API level 29 (current min is 16): android.media.AudioManager#isHapticPlaybackSupported [NewApi]
+            return audioManager.isHapticPlaybackSupported();
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:671: Error: Call requires API level 23 (current min is 16): android.media.AudioManager#unregisterAudioDeviceCallback [NewApi]
+            audioManager.unregisterAudioDeviceCallback((AudioDeviceCallback)audioDeviceCallback);
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:671: Error: Class requires API level 23 (current min is 16): android.media.AudioDeviceCallback [NewApi]
+            audioManager.unregisterAudioDeviceCallback((AudioDeviceCallback)audioDeviceCallback);
+                                                        ~~~~~~~~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:706: Error: Field requires API level 28 (current min is 16): android.media.MicrophoneInfo.Coordinate3F#x [NewApi]
+        list.add((double)coordinate.x);
+                         ~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:707: Error: Field requires API level 28 (current min is 16): android.media.MicrophoneInfo.Coordinate3F#y [NewApi]
+        list.add((double)coordinate.y);
+                         ~~~~~~~~~~~~
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\src\main\java\com\ryanheise\audio_session\AndroidAudioManager.java:708: Error: Field requires API level 28 (current min is 16): android.media.MicrophoneInfo.Coordinate3F#z [NewApi]
+        list.add((double)coordinate.z);
+                         ~~~~~~~~~~~~
+
+   Explanation for issues of type "NewApi":
+   This check scans through all the Android API calls in the application and
+   warns about any calls that are not available on all versions targeted by
+   this application (according to its minimum SDK attribute in the manifest).
+
+   If you really want to use this API and don't need to support older devices
+   just set the minSdkVersion in your build.gradle or AndroidManifest.xml
+   files.
+
+   If your code is deliberately accessing newer APIs, and you have ensured
+   (e.g. with conditional execution) that this code will only ever be called
+   on a supported platform, then you can annotate your class or method with
+   the @TargetApi annotation specifying the local minimum SDK to apply, such
+   as @TargetApi(11), such that this check considers 11 rather than your
+   manifest file's minimum SDK as the required API level.
+
+   If you are deliberately setting android: attributes in style definitions,
+   make sure you place this in a values-vNN folder in order to avoid running
+   into runtime conflicts on certain devices where manufacturers have added
+   custom attributes whose ids conflict with the new ones on later platforms.
+
+   Similarly, you can use tools:targetApi="11" in an XML file to indicate that
+   the element will only be inflated in an adequate context.
+
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\build.gradle:12: Warning: A newer version of com.android.tools.build:gradle than 7.3.0 is available: 8.5.0. (There is also a newer version of 7.3.𝑥 available, if upgrading to 8.5.0 is difficult: 7.3.1) [AndroidGradlePluginVersion]
+        classpath 'com.android.tools.build:gradle:7.3.0'
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\audio_session-0.1.19\android\build.gradle:51: Warning: A newer version of androidx.media2:media2-session than 1.2.1 is available: 1.3.0 [GradleDependency]
+    implementation "androidx.media2:media2-session:1.2.1"
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+61 errors, 2 warnings
