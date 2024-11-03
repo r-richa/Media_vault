@@ -3,6 +3,7 @@ import 'package:media_vault/screen/HomeScreen.dart';
 import 'package:media_vault/screen/SplashScreen.dart';
 import 'package:media_vault/screen/download/DownloadsPage.dart';
 import 'package:media_vault/screen/search/SearchPage.dart';
+import 'package:ffmpeg_kit_flutter/ffmpeg_kit.dart';
 
 
 void main() => runApp(MyApp());

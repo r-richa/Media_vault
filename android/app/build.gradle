@@ -1,3 +1,9 @@
+//plugins {
+//    id 'com.android.application'
+//    //id 'flutter'
+//}
+
+
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file('local.properties')
 if (localPropertiesFile.exists()) {
@@ -25,14 +31,18 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
+
+
 android {
+
+    namespace "com.example.media_vault"
 
     lint {
         baseline = file("lint-baseline.xml")
         abortOnError false
     }
-    compileSdkVersion 33
-    ndkVersion flutter.ndkVersion
+    compileSdkVersion 34
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -59,7 +69,7 @@ android {
         applicationId "com.example.media_vault"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion 23
+        minSdkVersion 24
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
